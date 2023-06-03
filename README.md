@@ -14,4 +14,12 @@
 Редактируем в файле (прописываем свой пароль) /etc/zabbix/zabbix_server.conf строку DBPassword=  
 Перезапускаем zabbix, apache2:  
 `systemctl restart zabbix-server apache2`  
-`systemctl enable zabbix-server apache2`
+`systemctl enable zabbix-server apache2`  
+
+**Задание 2.**  
+![изображение](https://github.com/Copakaban/zabbix/assets/118304300/302f1806-061e-4b0d-9bef-98247abae4e9)  
+![изображение](https://github.com/Copakaban/zabbix/assets/118304300/3e889025-761c-4367-9938-22b001e66267)  
+![изображение](https://github.com/Copakaban/zabbix/assets/118304300/01703654-52fd-4bca-a221-eb0fbdb178b1)  
+
+**Задание 3*.**  
+Первоначально работу делал на рабочем компьютере, на виртуалку поставил zabbix сервер, на хостовую виндовую машину поставил агент, получилось их подружить, данные пошли, сделал скрин и успокоился. Позже, когда полностью прочитал задание, понял, что не тот скрин сделал. Но т.к. работаю вахтами, на работе окажусь теперь только через месяц.
